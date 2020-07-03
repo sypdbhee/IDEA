@@ -24,5 +24,13 @@ python main.py --mode s_test --path soft/ --data 4 --gpus 0
 python main.py --mode s_test --path soft/ --data 7 --gpus 0
 python main.py --mode s_test --path soft/ --data 10 --gpus 0
 
+# Reconstruction (from LPS to waveform)
+python convert.py ~/IDEA/soft/3/
+python convert.py ~/IDEA/soft/6/
+python convert.py ~/IDEA/soft/9/
+python convert.py ~/IDEA/soft/4/
+python convert.py ~/IDEA/soft/7/
+python convert.py ~/IDEA/soft/10/
+
 # Please cite the paper:
 W. Lee, S. Wang, F. Chen, X. Lu, S. Chien and Y. Tsao, "Speech Dereverberation Based on Integrated Deep and Ensemble Learning Algorithm," in Proc. ICASSP, pp. 5454-5458, 2018
